@@ -5,14 +5,13 @@
     "main": "directories.js",
     "license": "MIT",
     "dependencies": {
-        "bluebird": "^3.7.1",
-        "commander": "^3.0.2",
-        "ramda": "^0.26.1"
+        "ramda": "^0.26.1",
+        "readline-sync": "^1.4.10"
     },
     "scripts": {
-        "run": "node directories.js",
+        "start": "node directories.js",
         "lint": "eslint . --ext .js",
-        "test": "mocha tests/**/*.test.js"
+        "test": "TESTING=true mocha tests/**/*.test.js"
     },
     "devDependencies": {
         "chai": "^4.2.0",
