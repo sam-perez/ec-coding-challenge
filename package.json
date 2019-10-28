@@ -1,0 +1,28 @@
+{
+    "name": "endpoint-closing-challenge",
+    "version": "1.0.0",
+    "description": "Challenge submission for endpoint closing.",
+    "main": "directories.js",
+    "license": "MIT",
+    "dependencies": {
+        "bluebird": "^3.7.1",
+        "commander": "^3.0.2",
+        "ramda": "^0.26.1"
+    },
+    "scripts": {
+        "run": "node directories.js",
+        "lint": "eslint . --ext .js",
+        "test": "mocha tests/**/*.test.js"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "eslint": "^6.6.0",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-prettier": "^3.1.1",
+        "eslint-plugin-react": "^7.16.0",
+        "mocha": "^6.2.2",
+        "rimraf": "^3.0.0"
+    }
+}
