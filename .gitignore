@@ -1,2 +1,3 @@
 node_modules/**
 .vscode
+integration_test_working_directory
